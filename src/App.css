@@ -1,3 +1,7 @@
 .montserrat-regular-400 {
   font-family: 'Montserrat', sans-serif;
 }
+
+.controls:hover {
+  color: #3BB0DE;
+}

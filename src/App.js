@@ -1,14 +1,15 @@
 import "./App.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Navbar from "./components/Navbar";
-import TimeSelector from "./components/TimeSelector";
+import Timer from "./components/Timer";
 
 function App() {
     return (
         <>
             <Navbar />
             <div className="container" style={{ height: "10rem" }}></div>
-            <TimeSelector />
+            <Timer />
         </>
     );
 }
