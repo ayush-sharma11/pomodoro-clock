@@ -1,3 +1,3 @@
 # Pomodoro Clock built using React and Bootstrap
 
-(Not over yet)
+(timer logic not added yet, only the ui created)
