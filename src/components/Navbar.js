@@ -1,11 +1,15 @@
 import React from "react";
 
-function Navbar() {
+function Navbar(props) {
     return (
         <>
             <nav
                 className="navbar"
-                style={{ height: "6rem", backgroundColor: "#87CEEB" }}
+                style={{
+                    height: "6rem",
+                    backgroundColor:
+                        props.isBreak === true ? "#80FFA2" : "#87CEEB",
+                }}
             >
                 <div className="container-fluid d-flex align-items-center justify-content-center">
                     <span className="navbar-brand" style={{ margin: "auto" }}>

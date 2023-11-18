@@ -3,5 +3,5 @@
 }
 
 .controls:hover {
-  color: #3BB0DE;
+  color: var(--body-color);
 }
